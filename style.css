@@ -1,0 +1,49 @@
+body {
+    background-color: #f4f4f4;
+}
+
+.converter {
+    max-width: 400px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.valyutalar {
+    margin-bottom: 15px;
+}
+
+.valyutalar label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.valyutalar input,
+.valyutalar select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #45a049;
+}
+
+#result {
+    margin-top: 15px;
+    font-weight: bold;
+}

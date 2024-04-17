@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valyuta</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="converter">
+        <h2>Valyuta Konvertoru</h2>
+        <div class="valyutalar">
+            <label for="amount">Miqdar:</label>
+            <input type="number" id="amount">
+        </div>
+        <div class="valyutalar">
+            <label for="from">Cari valyuta:</label>
+            <select id="from">
+            </select>
+        </div>
+        <div class="valyutalar">
+            <label for="to">Dönüştürüləcək valyuta:</label>
+            <select id="to">
+            </select>
+        </div>
+        <button onclick="convert()">Dönüşdür</button>
+        <div id="result"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
